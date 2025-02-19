@@ -1,0 +1,14 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "name": "DuckDB",
+            "accessMode": "Read/Write",
+            "previewLimit": 5000,
+            "driver": "DuckDB",
+            "databaseFilePath": "/Users/hemendragummadi/Desktop/slash-project/slash-analytics-take-home/dev.duckdb"
+        }
+    ],
+    "dbt.perspectiveTheme": "Vintage",
+    "dbt.enableNewLineagePanel": false
+}

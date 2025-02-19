@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: slash
+    description: "Raw CSV data seeded into DuckDB"
+    database: dev  # dbt automatically assigns the default DuckDB database as 'dev'
+    schema: main  # Default schema in DuckDB
+
+    tables:
+      - name: card_events
+        description: "Card creation, update, and deletion events."
+      
+      - name: card_transactions
+        description: "Transaction data including merchant and amounts."
+      
+      - name: entity
+        description: "Entity and subaccount relationship data."
