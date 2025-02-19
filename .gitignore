@@ -14,3 +14,5 @@ target/
 dbt_packages/
 logs/
 seeds/*
+seeds/*.csv
+plugins/*.jar
